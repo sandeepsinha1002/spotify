@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/_app.js", "components/Sidebar.js", "components/Search.js", "components/Right.js", "components/Dashboard.js", "components/Body.js", "src/pages/api/hello.js", "src/pages/about.js", "src/pages/index.js"],
   "exclude": ["node_modules"]
 }
